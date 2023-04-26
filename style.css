@@ -1,0 +1,353 @@
+
+body {
+    margin: 0;
+  }
+  
+  /* divide my page into sections vertically */ 
+  .sections-container {
+    display: flex;
+    flex-direction: column;
+    height: 600vh;
+    
+  }
+  
+  .sections-container section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    
+  }
+  
+  /* this is section one */
+  .section-one {
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    text-align: center;
+    position: relative;
+      
+    
+  }
+  
+  .section-one nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 10px;
+    padding-top: 41px;
+    font-size: 20px;
+    color: white;
+  }
+  
+  nav a {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  /* this is section 2,4,6 */
+  
+  .section-two,.section-four,.section-six {
+    position: relative;
+    background-color: #9999995c;  
+    margin-bottom: 0;
+  }
+  
+  /* this is section 3,5 */
+  .section-three,.section-five {
+    position: relative;
+    background-color: #eeeded;
+    margin-bottom: 0;
+  }
+
+  div {
+    display: block;
+    margin: 0%;
+    text-align: center;
+  }
+  
+  /* to use the font */
+  
+  @font-face {
+    font-family: 'BrunoAceSC-Regular';
+    src: url('fonts/BrunoAceSC-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+/* to display my company name */
+  h1 {
+    color: white;
+    font-family: "BrunoAceSC-Regular", sans-serif;    
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 30px;       
+  }
+/*define "your technology partner for success" styles*/  
+  h2 {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px; 
+    text-shadow: 2px 2px 4px #000000;
+    
+  }
+
+/*to use caveat font*/
+  @font-face {
+    font-family: 'Caveat-Medium';
+    src: url('fonts/Caveat-Medium.ttf') format('truetype');
+    font-weight:normal;
+    font-style: normal;
+  }
+
+/*define "elevate your onine presence" styles*/
+  h3 {
+    color: white;
+    font-family:"Caveat-Medium", sans-serif;
+    font-size: 30px; 
+    left:50%;
+    transform: translateX(-50%);
+    position: absolute; 
+    bottom: 10px;
+  }
+
+/*define headings of the next sections*/
+  h4 {
+    text-decoration: underline 3px ;
+    text-underline-offset:10px;
+    font-size: 50px;
+    color: #001f3f;
+    text-shadow: 1px 1px 2px rgb(240, 233, 233);
+    position:absolute;
+    top:0px;
+  }
+
+
+  p {
+    padding-left:50px ;
+    padding-right:50px ;
+    font-size: 30px;
+    color: #0c1a5e;
+    text-shadow: 0px 0px 2px rgb(73, 73, 73);
+    max-height: 200vh ;
+  }
+  
+  /* to define my anchor tag properties*/
+  #nav-a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+  }
+  /* unvisited link */
+  #nav-a:link {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* visited link */
+  #nav-a:visited {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* mouse over link */
+  #nav-a:hover {
+    color: rgb(80, 76, 76);
+    transform: scale(1.1);
+    transition: transform 0.1s ease;
+
+  }
+  
+  /* selected link */
+  #nav-a:active {
+    color: rgb(81, 255, 0);
+  }
+  
+/*define about call now button in section-one*/
+  button {
+    border: solid;
+    border-color: #f3f3f3;
+    background-image: linear-gradient(to bottom right, #233fbe, #f3f3f3);
+    color: #f3f3f3;
+    text-shadow: 0px 2px 4px black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    align-items: center;
+    bottom: 160px;
+    /*position: absolute;*/
+    font-size: 20px;
+    border-radius: 5px;
+    left:50%;
+    transform: translateX(-50%);
+  }
+
+  button:hover {
+    background-image: linear-gradient(to bottom right,  #f3f3f3, #233fbe);
+    color: white;
+    border-color: #ffffff;
+  }
+
+/*create whatsapp icon in the bottom right corner*/
+  .whats-app {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 15px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+.my-float {
+    margin-top: 16px;
+}
+
+/*defines table in section three*/
+#about {
+  border-collapse: separate;
+  bottom: 10px;
+  position: absolute; 
+}
+
+#icons {
+  height: 70px;
+  width: 70px;
+}
+
+#icons:hover {
+  transform: scale(1.3);
+  transition: transform 0.1s ease;
+}
+
+h5 {
+  color: #0c1a5e;
+  font-size: 20px;
+  text-shadow: 0px 0px 2px rgb(73, 73, 73);
+}
+
+td {
+  padding-left: 40px;
+}
+
+#p1 {
+  position: absolute;
+  top: 25%;
+}
+
+/*text in bullet list*/
+h6 {
+  color: #0c1a5e;
+  font-size: 30px;
+  text-shadow: 0px 0px 2px rgb(73, 73, 73);
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  bottom: 20px;
+  position: absolute;
+  line-height: 1.5;
+}
+
+/*defines table in the contact us section*/
+#contact-table {
+  border-collapse: separate;
+  position: absolute; 
+}
+
+/*defines anchor tag in contact us section*/
+#contact-a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#contact-a:hover {
+  text-shadow: 0px 0px 2px rgb(226, 2, 2);
+}
+
+/* define text style of copyrights sentence*/
+#copyrights {
+  position: absolute;
+  bottom:0;
+  font-size: 20px;
+  color: #000000;
+}
+
+/*text animation for h1*/
+.text-animation h1 {
+  opacity: 0;
+  animation: enter-left 0.8s ease-in-out 0.5s forwards;
+}
+
+@keyframes enter-left {  
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/*text animation for navigation bar*/
+.text-animation nav {
+  opacity: 0;
+  animation: enter-right 0.8s ease-in-out 1s forwards;
+}
+
+@keyframes enter-right {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/*text animation for h2*/
+.text-animation h2 {
+  opacity: 0;
+  animation: enter-bottom 0.8s ease-in-out 1.8s forwards;
+}
+
+@keyframes enter-bottom {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/*text animation for button*/
+.text-animation button {
+  opacity: 0;
+  animation: enter-bottom 0.8s ease-in-out 2.2s forwards;
+}
+
+@keyframes enter-bottom {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
