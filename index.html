@@ -16,18 +16,22 @@
   <div class="sections-container">
 
     <section class="section-one">
-
+ 
       <div class="text-animation"><h1 id="section-one" >SKYLINE SOLUTIONS</h1></div>
         
-       <div class="text-animation">
-          <nav>
-            <a id="nav-a" href="#section-two">About Us</a> 
-            <a id="nav-a" href="#section-three">Our Services</a> 
-            <a id="nav-a" href="#section-four">What We Do</a> 
-            <a id="nav-a" href="#section-five">Contact Us</a> 
-            <a id="nav-a" href="#section-six">Powered By</a>
-          </nav> 
-        </div>
+      <div class="text-animation">
+        <nav>
+          <input type="checkbox" id="toggle">
+          <label for="toggle">&#9776</label>
+        <ul class="nav-ul">
+          <li class="nav-li"><a id="nav-a" href="#section-two">About Us</a> </li>
+          <li class="nav-li"><a id="nav-a" href="#section-three">Our Services</a> </li>
+          <li class="nav-li"><a id="nav-a" href="#section-four">What We Do</a> </li>
+          <li class="nav-li"><a id="nav-a" href="#section-five">Contact Us</a> </li>
+          <li class="nav-li"><a id="nav-a" href="#section-six">Powered By</a></li>
+        </ul>
+        </nav> 
+      </div>
        
         <div class="text-animation"> <h2>Your Technology Partner for Success</h2> </div>
              
@@ -40,9 +44,9 @@
         <p>At Skyline Solutions, we are passionate about technology and how it can 
             transform businesses. Our team of experienced professionals specializes in 
             providing top-notch technology solutions and services to clients across 
-            various industries. We are committed to delivering exceptional customer 
+            various industries. <br><br>We are committed to delivering exceptional customer 
             service and ensuring that our clients receive the best possible solutions 
-            to meet their unique needs. From software development to cloud services, 
+            to meet their unique needs. <br><br>From software development to cloud services, 
             cybersecurity, and more, we leverage the latest technologies to help 
             businesses thrive in today's ever-evolving digital landscape. With Skyline 
             Solutions, you can trust that your technology needs are in good hands.</p>
@@ -51,7 +55,7 @@
     <section class="section-three">
         <h4 id="section-three">Our Services</h4>
 
-        <table id="about">
+        <table class="desktop-table" id="about">
         <!--this is the first row--> 
           <tr>
             <td><img id="icons" src="img/app-development.png"></td>
@@ -81,6 +85,56 @@
             <td><h5>E-commerce Solutions</h5></td>
           </tr>
         </table>
+
+        <table class="mobile-table" id="about">
+          <!--this is the first row--> 
+            <tr>
+              <td><img id="icons" src="img/app-development.png"></td>
+              <td><img id="icons" src="img/artificial-intelligence.png"></td>
+              
+            </tr>
+           <!--this is the second row--> 
+            <tr>   
+              <td><h5>Web and Mobile App Development</h5></td>
+              <td><h5>Artificial Intelligence and Machine Learning</h5></td>
+              
+            </tr>
+          <!--this is the third row--> 
+            <tr>
+              <td><img id="icons" src="img/cloud-storage.png"></td>
+              <td><img id="icons" src="img/cyber-security.png"></td>
+            </tr>
+          <!--this is the fourth row--> 
+          <tr>
+            <td><h5>Cloud Computing Services</h5></td>
+            <td><h5>Cybersecurity Solutions</h5></td>
+          </tr>
+          
+          <!--this is the fifth row--> 
+            <tr>
+              <td><img id="icons" src="img/it-consulting.png"></td>
+              <td><img id="icons" src="img/social-media.png"></td>
+              
+            </tr>
+           <!--this is the sixth row--> 
+            <tr>
+              <td><h5>IT Consulting and Strategy</h5></td>
+              <td><h5>Digital Marketing Sevices</h5></td>
+              
+            </tr>
+           <!--this is the seventh row--> 
+           <tr>
+              <td><img id="icons" src="img/testing.png"></td>
+              <td><img id="icons" src="img/idea.png"></td>
+           </tr>
+           <!--this is the eightth row--> 
+           <tr>
+              <td><h5>Software Testing and Quality Assurance</h5></td>
+              <td><h5>E-commerce Solutions</h5></td>
+           </tr>
+          
+          </table>
+
     </section>
 
     <section class="section-four">
@@ -102,7 +156,7 @@
     <section class="section-five">
       <h4 id="section-five">Contact Us</h4>
       
-       <table id="contact-table">
+       <table class="desktop-table" id="contact-table">
           <tr>
             <td><img id="icons" src="img/phone.png"></td>
             <td><img id="icons" src="img/gmail.png"></td>
@@ -125,6 +179,45 @@
           </tr>
          
        </table>
+
+       <table class="mobile-table1" id="contact-table">
+        <tr>
+          <td><img id="icons" src="img/phone.png"></td>
+          
+         
+        </tr>
+        <tr>
+          <td>
+            <p id="contact">Phone</p> 
+            <a id="contact-a" href="tel:+94763766154">+94763766154</a><br><br><br>
+          </td>
+        </tr>
+
+        <tr>
+          <td><img id="icons" src="img/gmail.png"></td>
+        </tr>
+        <tr>
+           <td>
+            <p id="contact">Email Id </p>
+            <a id="contact-a" href="mailto:varshan2410@gmail.com">varshan2410@gmail.com</a><br><br><br>
+           </td>
+        <tr>
+        
+        <tr>
+          <td><img id="icons" src="img/location-pin.png"></td>
+        </tr>
+        <tr>
+          <td>
+            <p id="contact"> Address </p>
+            <a id="contact-a" href="https://maps.google.com/?q=Nelliady&ftid=0x3aff01bfd0f018cb:0x22c08e4e238fd233&entry=gps">Nelliady,Jaffna</a>
+          </td>
+        </tr>
+        
+        
+        
+
+       
+     </table>
       
 
       
@@ -135,11 +228,11 @@
       
       <table id="contact-table">
         <tr>
-          <td><br><br><a href="https://github.com/"><img  src="img/github.png" width="170px"> </a></td>
+          <td><a href="https://github.com/"><img  id="powered-img" src="img/github.png" > </a></td>
         
         <tr>
           <td>
-            <p>GIT HUB</p> <br>            
+            <p id="poweredby">GIT HUB</p> <br>            
           </td>
        
         </tr> 
@@ -156,5 +249,8 @@
   </a>
 
 </body>
+
+</html>
+
 
 </html>
