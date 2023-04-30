@@ -533,12 +533,11 @@ label[for="toggle"] {
   .mobile-table {
     display: block;
     position: relative;
-    left: 50%;
-    transform: translateX(-50%); 
-    
     top:15%;
-    width: 100%; 
+   
   }
+
+  
 
  
   /*define about call now button in section-one*/
@@ -595,6 +594,8 @@ label[for="toggle"] {
     position: relative;
     top:15%;
   }
+
+ 
 
  
   /* define text style of copyrights sentence*/
