@@ -312,7 +312,7 @@ color: #000000;
   text-align: center;
   position:relative;
   left:50%;
-  transform: translateX(-61%);
+  transform: translateX(-58%);
   top: 50%;
 
 }
@@ -321,7 +321,7 @@ color: #000000;
 #powered-img {
  position: relative;
  width: 170px;
- left:50%;
+ left:30%;
   transform: translateX(-50%);
   top: 50%;
 }
@@ -405,8 +405,11 @@ label[for="toggle"] {
 
 @media only screen and (max-width: 600px){
 
+
+
   .sections-container {
     width: 100%;
+    height: 500vh;
   }
 
   .sections-container section {
@@ -524,11 +527,13 @@ label[for="toggle"] {
     display: block;
     position: relative;
     left: 50%;
-    transform: translateX(-57%);
+    transform: translateX(-50%); 
+    
     top:15%;
     width: 100%; 
   }
 
+ 
   /*define about call now button in section-one*/
   button {
     padding: 8px 16px;
