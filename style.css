@@ -410,14 +410,18 @@ label[for="toggle"] {
   .sections-container {
     width: 100%;
     height: 500vh;
+    
   }
 
   .sections-container section {
     padding: 0;
+    width: 100%;
+    
   }
 
   .section-one {
     width: 100%;
+    
   }
 
 
@@ -462,10 +466,13 @@ label[for="toggle"] {
     
     border: 1px solid #ffffff ;
     padding: 0px 4px;
-    
-    
   }
+
   
+  
+  td {
+    padding:0;
+  }
   input[type="checkbox"]:checked ~ ul {
     max-height: 500px;
     transition: all 0.3s ease;
@@ -585,13 +592,11 @@ label[for="toggle"] {
 
   .mobile-table1 {
     display: block;
-    position: absolute;
-    left:50%;
-    transform: translateX(-41%);
+    position: relative;
     top:15%;
-    width: 100%;
   }
 
+ 
   /* define text style of copyrights sentence*/
   #copyrights {
     position: absolute;
@@ -605,16 +610,17 @@ label[for="toggle"] {
     text-align: center;
     position:relative;
     left:50%;
-    transform: translateX(-61%);
+    transform: translateX(-50%);
     top: 50%;
 
   }
   
   #powered-img {
    position: relative;
+   
    width: 170px;
    left:50%;
-    transform: translateX(-61%);
+    transform: translateX(-50%);
     top: 50%;
 
   }
